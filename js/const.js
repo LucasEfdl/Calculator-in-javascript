@@ -1,6 +1,7 @@
 const main = document.querySelector("main");
 const root = document.querySelector(":root");
 const input = document.getElementById("input");
+const resultInput = document.getElementById("result");
 const allowedKeys = [
   "(",
   ")",
@@ -22,5 +23,4 @@ const allowedKeys = [
   "%",
   " ",
 ];
-
-export { main, root, input, allowedKeys };
+export { main, root, input, allowedKeys, resultInput };
