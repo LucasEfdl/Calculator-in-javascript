@@ -8,4 +8,4 @@ function calculate() {
   resultInput.classList.remove("error");
 }
 
-export { calculate };
+export { calculate, resultInput };

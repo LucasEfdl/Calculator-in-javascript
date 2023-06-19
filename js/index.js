@@ -1,29 +1,5 @@
-const main = document.querySelector("main");
-const root = document.querySelector(":root");
-const input = document.getElementById("input");
-const allowedKeys = [
-  "(",
-  ")",
-  "/",
-  "*",
-  "-",
-  "+",
-  "9",
-  "8",
-  "7",
-  "6",
-  "5",
-  "4",
-  "3",
-  "2",
-  "1",
-  "0",
-  ".",
-  "%",
-  " ",
-];
-
-import { calculate } from "./calculate.js";
+import { main, root, input, allowedKeys } from "./const.js";
+import { calculate, resultInput } from "./calculate.js";
 
 document.querySelectorAll(".charKey").forEach((charKeyBtn) => {
   charKeyBtn.addEventListener("click", () => {
